@@ -28,6 +28,7 @@ class Home extends React.Component {
 
     _renderItem = ({item}) => {
         const {id} = item;
+        console.log('renderItem',id);
         return (
             <TouchableOpacity onPress ={() => {
                 this.props.navigation.navigate('NewsDetail', {
