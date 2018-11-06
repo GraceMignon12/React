@@ -37,7 +37,7 @@ class Home extends React.Component {
             }}>
                 <View style={styles.listItem}>
                     
-                    <View style={styles.listItemRight}>
+                    <View style={styles.listItemCenter}>
                         <Text>{item.name}</Text>
                     </View>
                 </View>

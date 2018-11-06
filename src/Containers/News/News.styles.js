@@ -22,8 +22,9 @@ const styles = StyleSheet.create({
         justifyContent: 'center'
     },
     listItemCenter: {
-        justifyContent: 'center',
-        alignContent: 'center'
+        flex: 1,
+        justifyContent: 'space-around',
+        paddingLeft:10,
     }
 });
 
